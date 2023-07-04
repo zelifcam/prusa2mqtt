@@ -23,21 +23,20 @@ The purpose of this project is to provide a streamlined method for transferring 
 * Docker containerization for effortless deployment and scalability.
 
 ## Usage
-Open the ".env" file using a text editor of your choice.
-Look for the lines in the ".env" file that correspond to your MQTT and PrusaLink servers. 
+Create a ".env" file in the root of this project folder, using a text editor of your choice.
 
-file:  .env
+exmple file:  .env
     
     APP_VERSION="1.0" # Do Not Change
     MQTT_HOST="192.168.0.10"
     MQTT_PORT=1883
-    MQTT_USER="mqtt-password" 
+    MQTT_USER="mqtt-user" 
     MQTT_PASS="mqtt-password"
     PRUSALINK_HOST="http://192.168.0.20"
     PRUSALINK_USER="maker"
     PRUSALINK_PASS="password"
     PRUSALINK_CALLS="info,version,status" # Do Not Change
-    PRUSALINK_UPDATE=30 $ Update Frequency
+    PRUSALINK_UPDATE=30 # Update Frequency in Seconds
 
 After you have edited the .env file, run the following commands.
 
