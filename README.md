@@ -44,6 +44,10 @@ After you have edited your .env file, run the following commands.
     $ git clone <project>
     $ cd <project>
     $ docker-compose up -d && docker-compose logs -f
+    
+If all goes well, you'll see something like this populating your mqtt server:
+
+![alt text](mqtt.png "MQTT")
 
 ## License
     MIT License
