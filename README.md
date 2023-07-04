@@ -1,6 +1,6 @@
-# prusa2mqtt
+# prusa2mqtt MK4
 
-This repository presents a simple yet effective solution that combines Python and Docker to effortlessly push Prusalink data to an MQTT server.
+I recently purchased a Prusa MK4 3D Printer.  Unfortunately, the official home-assistant integration is not compatible with my printer <https://www.home-assistant.io/integrations/prusalink>.  This project is a quick attempt to get data I needed into a MQTT server, to be ingested by home-assistant.
 
 - [Project Description](#project-description)
 - [Features](#features)
