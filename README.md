@@ -39,17 +39,13 @@ file:  .env
     PRUSALINK_CALLS="info,version,status" # Do Not Change
     PRUSALINK_UPDATE=30 $ Update Frequency
 
-After you have edited your .env file, run the following commands.
+After you have edited the .env file, run the following commands.
 
     $ git clone <project>
     $ cd <project>
     $ docker-compose up -d && docker-compose logs -f
-    
-If all goes well, you'll see something like this populating your mqtt server:
 
-![alt text](mqtt.png "MQTT")
-
-I then used this document to manuallly import the MQTT topics into Home Assistant.
+Manually import the MQTT topics into Home Assistant.
 
 <https://www.home-assistant.io/blog/2015/09/11/different-ways-to-use-mqtt-with-home-assistant/>
 
