@@ -49,6 +49,9 @@ If all goes well, you'll see something like this populating your mqtt server:
 
 ![alt text](mqtt.png "MQTT")
 
+I then used this document to manuallly import the MQTT topics into Home Assistant.
+<https://www.home-assistant.io/blog/2015/09/11/different-ways-to-use-mqtt-with-home-assistant/>
+
 ## License
     MIT License
 
